@@ -22,8 +22,5 @@
   "homepage": "https://gitlab.com/newtonlabs/limitless#README",
   "devDependencies": {
     "js-image-generator": "^1.0.2"
-  },
-  "dependencies": {
-    "static-http2-server": "^1.7.5"
   }
 }
