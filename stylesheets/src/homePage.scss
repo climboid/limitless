@@ -1,0 +1,26 @@
+.middleBanner, .home-recommendations{
+	padding: $pad;
+	img{
+		width: 100%;
+		vertical-align: top;
+	}
+	.sup {
+		font-size: small;
+	}
+}
+
+.home-recommendations{
+	img{
+		height: 373px;
+	}
+}
+
+.cta-container{
+	z-index: 11;
+	margin-top:-33%;
+	position: absolute;
+	left: 40%;
+}
+
+
+

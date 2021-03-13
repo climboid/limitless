@@ -1,0 +1,36 @@
+footer{
+	background-color: rgb(240,240,240);
+	padding: $pad;
+	margin: $pad 0 0;
+	.grid{
+		background-color: rgb(240,240,240);
+		padding: 0 $pad/2;
+	}
+	ul{
+		margin: 0;
+		padding: 0;
+	}
+	a{
+		text-decoration: none;
+		color:rgb(51,51,51);
+	}
+	li{
+		list-style: none;
+		padding: 1em 0;
+	}
+	.inline{
+		padding: 0 20px 0 0;
+	}
+	hr{
+		margin: 4em 0 2em;
+	}
+	h3, h4{
+		margin: 0;
+	}
+	.topFix{
+		padding-top:4em;
+	}
+	h3{
+		text-transform: uppercase;
+	}
+}

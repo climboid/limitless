@@ -1,0 +1,18 @@
+.subNavDeals{
+	margin-top:17px;
+	color:rgb(51,51,51);
+	font-size: 1.3rem;
+	li{
+		display: inline;
+		list-style: none;
+		padding: 0 5em;
+		text-indent: -.7em;
+		&:before{
+			content: "• ";
+			color: $red;
+		}
+	}
+	a{
+		color:rgb(51,51,51);
+	}
+}

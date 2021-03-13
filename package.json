@@ -1,0 +1,25 @@
+{
+  "name": "limitless",
+  "version": "1.0.0",
+  "description": "Fastest eCommerce possible",
+  "main": "service-worker.js",
+  "scripts": {
+    "scss-watch":
+      "sass --watch stylesheets/src/index.scss:stylesheets/index.css --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/newtonlabs/limitless.git"
+  },
+  "keywords": ["eCommerce", "fast"],
+  "author": "Thomas Newton & Oscar Villarreal",
+  "license": "",
+  "bugs": {
+    "url": "https://gitlab.com/newtonlabs/limitless/issues"
+  },
+  "homepage": "https://gitlab.com/newtonlabs/limitless#README",
+  "devDependencies": {
+    "js-image-generator": "^1.0.2"
+  },
+  "dependencies": {}
+}

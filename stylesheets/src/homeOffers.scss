@@ -1,0 +1,21 @@
+.imgContent {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	margin-left: -110px;
+	text-align: center;
+	.cta {
+		margin: 20px;
+	}
+}
+
+.bottomMsg {
+	position: absolute;
+	z-index: 2;
+	margin-top: -16%;
+	width: 100%;
+	h3 {
+		background-color: white;
+		color: black;
+	}
+}
