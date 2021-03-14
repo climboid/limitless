@@ -1,11 +1,11 @@
 @font-face {
 	font-family: 'Interstate-Regular';
-	src: url('./fonts/Interstate-Regular.woff') format('woff');
+	src: url('/stylesheets/fonts/Interstate-Regular.woff') format('woff');
 }
 
 @font-face {
 	font-family: 'Interstate-Light';
-	src: url('./fonts/Interstate-Light.woff') format('woff');
+	src: url('/stylesheets/fonts/Interstate-Light.woff') format('woff');
 }
 
 @import 'variables';
@@ -35,6 +35,7 @@ hr {
 	border-color: rgb(204, 204, 204);
 }
 
+@import 'variables';
 @import 'helpers';
 @import 'grid';
 @import 'buttons';

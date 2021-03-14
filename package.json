@@ -4,7 +4,7 @@
   "description": "Fastest eCommerce possible",
   "main": "service-worker.js",
   "scripts": {
-    "scss-watch": "sass --watch stylesheets/src/index.scss:stylesheets/index.css --style compressed"
+    "scss": "node-sass --watch stylesheets/src/index.scss --output-style compressed -o stylesheets/index.css"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,9 @@
   "homepage": "https://gitlab.com/newtonlabs/limitless#README",
   "devDependencies": {
     "js-image-generator": "^1.0.2"
+  },
+  "dependencies": {
+    "node-sass": "^5.0.0",
+    "sass": "^1.32.8"
   }
 }
